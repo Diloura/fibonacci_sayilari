@@ -1,14 +1,14 @@
-//klavyeden kaç adet fibonacci sayısı üretileceği bilgisi girilerek sayıların üretilmesini sağlayan kod
+//klavyeden kaÃ§ adet fibonacci sayÄ±sÄ± Ã¼retileceÄŸi bilgisi girilerek sayÄ±larÄ±n Ã¼retilmesini saÄŸlayan kod
 
 #include<stdio.h>
 #include<stdlib.h>
 
-void fibonacci(int sayi){
+void fibonacci(int N){
 	int ilk=0,ikinci=1,sonraki,i;
 	
 	printf("gosterilecek fibonacci sayilari:\n");
 	
-	for(i=0;i<sayi;i++){
+	for(i=0;i<N;i++){
 		if(i<=1){
 			sonraki=i;
 		}
